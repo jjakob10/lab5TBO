@@ -1,4 +1,4 @@
-// #include "../sort.h"
+#include "../sort.h"
 #include <sys/time.h>
 
 #define CUTOFF 1
@@ -11,13 +11,13 @@ int median_of_3(Item *a, int lo, int hi)
     z = (unsigned int)(drand48() * (hi - lo)) + lo;
 
 
-       if((a[y]>=a[x] && a[y] =< a[z] )||( a[y]>=a[x] && a[y] =< a[z] ))
+       if((a[x]>=a[y] && a[x] =< a[z] )||( a[x]>=a[z] && a[x] =< a[y] ))
         return x;   
 
-       if((a[y]>=a[x] && a[y] =< a[z] )||( a[y]>=a[x] && a[y] =< a[z] ))
+       if((a[y]>=a[z] && a[y] =< a[x] )||( a[y]>=a[x] && a[y] =< a[z] ))
         return x;   
 
-       if((a[y]>=a[x] && a[y] =< a[z] )||( a[y]>=a[x] && a[y] =< a[z] ))
+       if((a[z]>=a[x] && a[z] =< a[y] )||( a[z]>=a[y] && a[z] =< a[x] ))
         return x;   
 
 }
