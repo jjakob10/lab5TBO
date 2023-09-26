@@ -1,0 +1,3 @@
+As versões com skip se destacaram. O cutoff ajuda, mas a perca que ele tem quando o array está na ordem inversa é muito grande
+Escolheria as versões com apenas o skip pois é uma melhora muito boa e se mantem bem geral.
+Se já estiver quase ordenado, eu escolheria uma com os dois

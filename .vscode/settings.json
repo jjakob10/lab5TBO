@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        "sort.h": "c",
+        "time.h": "c",
+        "random": "c"
+    }
+}
